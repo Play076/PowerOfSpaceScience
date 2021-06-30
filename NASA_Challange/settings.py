@@ -42,6 +42,11 @@ INSTALLED_APPS = [
     'views'
 ]
 
+STATICFILES_DIRS = [
+    BASE_DIR / "static/image",
+    'C:/Users/user/Documents/NASA_Challange/NASA_Challange/static/image/',
+]
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
